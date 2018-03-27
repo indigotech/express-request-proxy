@@ -5,6 +5,11 @@
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
+
+This library was modified to be used with already parsed request bodies. This will be discontinued if changes are merged to original repo
+
+Link to original repo: https://github.com/4front/express-request-proxy
+
 High performance streaming http request reverse proxy for [Express](http://expressjs.com) based on the [request http client](https://www.npmjs.com/package/request). Supports caching, custom routes, server-side injection of sensitive keys, authentication, and response transformations.
 
 ## Usage
